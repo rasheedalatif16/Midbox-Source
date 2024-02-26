@@ -1,15 +1,14 @@
 {
-	"name": "BeepBox",
-	"version": "4.1.0",
-	"description": "BeepBox is an online tool for sketching and sharing instrumental music.",
+	"name": "TheisBox",
+	"version": "V4.7.0",
+	"description": "TheBox is an online tool for sketching and sharing instrumental music.",
 	"author": "John Nesky",
 	"license": "MIT",
-	"homepage": "https://www.beepbox.co",
+	"homepage": "https://www.theboxy.comg.co",
 	"type": "module",
 	"scripts": {
 		"build": "npm run build-synth && npm run build-player && npm run build-editor",
 		"build-synth": "bash ./compile_beepbox_synth.sh",
-		"build-player": "bash ./compile_beepbox_player.sh",
 		"build-editor": "bash ./compile_beepbox_editor.sh"
 	},
 	"repository": {
@@ -30,3 +29,6 @@
 		"select2": "^4.0.13"
 	}
 }
+
+bar:none
+desktop: wide and full screen 
